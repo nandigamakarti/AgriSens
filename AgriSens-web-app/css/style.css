@@ -598,9 +598,10 @@ html {
   /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
   padding-top: 5rem;
   padding-bottom: 5rem;
+  width: 100%;
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 900px) {
   .about .box-container {
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   }
